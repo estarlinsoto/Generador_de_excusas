@@ -28,7 +28,6 @@ window.onload = () => {
 
   const result = `${who[whoR]}  ${action[actionR]}  ${what[whatR]}  ${when[whenR]}`;
 
-  console.log(result);
   let c = document.getElementById("excuse");
 
   c.innerText = result;
